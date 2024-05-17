@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#place{
+    display: flex;
+    /* min-height: 80%; */
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    min-height: 50%;
+    width: 60%;
+}
+input{
+    width: 92%;
+    min-height: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 3px;
+}
+
+::placeholder{
+    min-width: 10%;
+    text-align: center;
+}
+div{
+    display: grid;
+    min-width: 90%;
+    gap: 3px;
+    grid-template-areas: 
+                         "btn1 btn2 btn3 plas"
+                         "btn4 btn5 btn6 min"
+                         "btn7 btn8 btn9 ymn"
+                         "btn10 btn11 btn12 del";
+                         
+}
