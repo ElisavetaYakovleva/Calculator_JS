@@ -21,7 +21,7 @@ header{
 }
 form{
     min-height: 50%;
-    width: 60%;
+    width: 300px;
 }
 input{
     width: 92%;
@@ -35,7 +35,7 @@ input{
     min-width: 10%;
     text-align: center;
 }
-div{
+#place2{
     display: grid;
     min-width: 90%;
     gap: 3px;
